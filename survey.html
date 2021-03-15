@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div id="body">
+        <h1 id="title">JS.PY Survey Form</h1>
+        <p id="description">
+            Thank you for taking the time to help me with this bike-application survey
+        </p>
+        <form id="survey-form">
+            <div class="box">
+                <label id="name-label" for="name">Name
+                </label>
+                <input type="text" id="name" name="name" class="space" placeholder="Enter your name" required />
+            </div>
+            <div class="box">
+                <label id="email-label" for="email">Email
+                </label>
+                <input type="email" name="email" id="email" class="space" placeholder="Enter your Email" required />
+            </div>
+            <div class="box">
+                <label id="number-label" for="number">Age
+                </label>
+                <input type="number" name="age" id="number" class="space" placeholder="your age" min="16" max="100" />
+            </div>
+            <div class="box">
+                <p>
+                    Sex
+                </p>
+                <select id="dropdown" name="sex" class="space" required>
+                    <option disabled selected value>Select an option</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="box">
+                <p>If you identify yourself as something else please specify below</p>
+                <textarea id="sex" name="other" placeholder="Enter here..." class="textarea"></textarea>
+            </div>
+            <div class="box">
+                <P>What features would you like to see in the app: </p>
+                <label for="registration"> <Input type="checkbox" value="Registration page as a User" name="registration"
+                        class="checkbox" />
+    
+                    Registration page as a User </label>
+                <label for="reg">
+                    <Input type="checkbox" name="reg" value="Register as a Worker" class="checkbox" />
+                    Register as a Worker </label>
+                <label for="steak">
+                    <Input type="checkbox" name="demand" value="Make a demand" class="checkbox" />
+                    Make a demand </label>
+                <label for="cancel">
+                    <Input type="checkbox" name="cancel" value="Cancel a demand" class="checkbox" />
+                    Cancel a demand </label>
+                <label for="view">
+                    <Input type="checkbox" name="view" value="View bikes geographical locations" class="checkbox" />
+                    View bikes geographical locations </label>
+                <label for="destination">
+                    <Input type="checkbox" name="destination" value="View bikes destinations" class="checkbox" />
+                    View bikes destinations </label>
+                <label for="occupy">
+                    <Input type="checkbox" name="occupy" value="Occupy a bike for the whole day" class="checkbox" />
+                    Occupy a bike for the whole day</label>
+    
+            </div>
+            <div class="box">
+                <p>Would you recommend this application to a friend?</p>
+                <label>
+                    <input name="recommend" class="recommend" value="for sure" type="radio" checked />
+                    For sure
+                </label>
+                <label>
+                    <input name="recommend" class="recommend" value="maybe" type="radio" />
+                    Maybe
+                </label>
+    
+                <label>
+                    <input name="recommend" class="recommend" value="no" type="radio" />
+                    No
+                </label>
+            </div>
+            <div class="box">
+                <p>If any comments or suggestions for the App please enter below</p>
+                <textarea id="comments" name="comment" placeholder="Enter your suggestions here..."
+                    class="textarea"></textarea>
+            </div>
+            <div class="box">
+                <button type="submit" id="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
