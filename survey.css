@@ -1,63 +1,61 @@
-body{
-   margin: 0;
-    padding: 0;
-    font-family: helvetica,sans-serif;
-  line-height:2.0;
-  color:ivory;
-  background-image:url(https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-   background-size: 100% 100%;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+  line-height: 2;
+  color: ivory;
+  background-image: url(https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  
 }
-#body{
+#body {
   margin: 4rem auto 4rem auto;
-  padding-bottom:4rem;
-    border-radius:8px;
-  width:100%;
+  padding-bottom: 4rem;
+  border-radius: 8px;
+  width: 100%;
 }
 
-h1{
-  margin-bottom:0;
-  margin-top:0;
+h1 {
+  margin-bottom: 0;
+  margin-top: 0;
 }
-p{
-  margin-top:0;
+p {
+  margin-top: 0;
 }
-label{
-  margin-bottom:1rem;
-  display:flex;
-  align-items:center;
+label {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
 }
 input,
 button,
 select,
-textarea{
-  margin:0;
-  
+textarea {
+  margin: 0;
 }
-button{
- border:0;
+button {
+  border: 0;
 }
-#title{
-  text-align:center;
+#title {
+  text-align: center;
 }
-#description{
-  text-align:center;
+#description {
+  text-align: center;
 }
-form{
-  background:darkslateblue;
-  opacity:0.70;
-  border-radius:6px;
-  margin:0 25% 0 25%;
+form {
+  background: darkslateblue;
+  opacity: 0.7;
+  border-radius: 6px;
+  margin: 0 25% 0 25%;
 }
-.box{
+.box {
   margin: 0 auto 0 auto;
   padding: 0.5rem;
 }
-.space{
-   display: block;
+.space {
+  display: block;
   max-width: 80%;
-  width:80%;
+  width: 80%;
   height: 2rem;
   padding: 0.5rem 1rem;
   background-color: white;
@@ -65,29 +63,29 @@ form{
   border: 1px solid black;
   border-radius: 4px;
 }
-.checkbox{
-   display: inline-block;
-  margin-right:1rem;
-  min-width:1rem;
+.checkbox {
+  display: inline-block;
+  margin-right: 1rem;
+  min-width: 1rem;
 }
-.recommend{
-    display: inline-block;
-   margin-right:1rem;
-  min-width:1rem;
+.recommend {
+  display: inline-block;
+  margin-right: 1rem;
+  min-width: 1rem;
 }
-.textarea{
+.textarea {
   min-height: 120px;
   width: 80%;
   padding: 1rem;
 }
-#sex{
-  padding:0;
+#sex {
+  padding: 0;
 }
-#submit{
+#submit {
   display: block;
-  cursor:pointer;
+  cursor: pointer;
   padding: 1rem;
   width: 100%;
   border-radius: 4px;
-  background:skyblue;
+  background: skyblue;
 }
